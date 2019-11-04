@@ -16,7 +16,7 @@ function [optval,xopt,it] = frank_wolfe(lmi_set,opts,Rvar,x0,epsilon,verbose)
 % Email:  lucas.n.egidio@gmail.com
 
 
-% No epsilon provided
+    % No verbose opt provided
     if(~exist('verbose','var')|| isempty(verbose))
         verbose = 1; 
     end
